@@ -5,10 +5,14 @@ supported by the LOS API.
 
 * [OAuth2 API](api-list/oauth-api.md)
   * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/oauth/token
+* [Loan Information - Collateral Overview API](api-list/loan-information-api.md)
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/loan/information/collateralOverview/:locationID
+* [Loan Information - Environmental Risk Codes API](api-list/loan-information-envriskcodes-api.md)
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/loan/information/collateralOverview/:locationID
 * [Service Request Fields API](api-list/srf-fields-api.md)
   * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/fields
 * [Collateral Overview Fields API](api-list/srf-fields-co-api.md)
-  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/co/fields
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/collateralOverview/fields
 * [Service Request API](api-list/srf-api.md)
   * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/form
   * <span style="background-color: #5493dc; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(PUT)</span> /api/v1.1/serviceRequest/form

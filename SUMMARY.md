@@ -12,6 +12,10 @@
   * [Common Error Codes](error-handling/errors-codes.md)
 * [API List](api-list.md)
   * [OAuth2 API](api-list/oauth-api.md)
+  * [Collateral Overview *](api-list/collateral-overview.md)
+  * Loan Information *
+    - [Collateral Overview *](api-list/loanInfo/loan-information-api.md)
+    - [Environmental Risk Codes *](api-list/loanInfo/loan-information-envriskcodes-api.md)
   * [Service Request Fields API](api-list/srf-fields-api.md)
     - [Property Types *](api-list/srffields/srf-fields-propertytypes.md)
     - [Nested Field Relationships *](api-list/srffields/srf-fields-nested-fields.md)
@@ -31,6 +35,9 @@
     - [Utilities API: Document Types *](api-list/utilities/document-types.md)
     - [Utilities API: Document Status *](api-list/utilities/document-status.md)
 * What's New
+  * [Collateral Overview *](api-list/collateral-overview.md)
+  * [Loan Info - Collateral Overview *](api-list/loanInfo/loan-information-api.md)
+  * [Loan Info - Environmental Risk Codes *](api-list/loanInfo/srf-fields-propertytypes.md)
   * [Service Request API - Non-Draft *](api-list/srf-api.md)
   * [Service Request API - Collateral Limits *](api-list/srf-api/srf-api-collateral-limits.md)
   * [Service Request API - Submission Queue Processing *](api-list/srf-api/srf-api-queue.md)

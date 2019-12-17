@@ -1,6 +1,6 @@
 # SRF Fields Collateral Overview API
 
-The SRF Fields API will return a schema that describes the
+The Collateral Overview Fields API will return a schema that describes the
 fields available for entry on service request forms. The
 response will be formatted according to the JSON Schema
 specification, which is documented here:
@@ -15,9 +15,9 @@ service requests.
 > list returned by this endpoint will be substantially complete,
 > but some fields may not be present. These fields will be
 > added to the schema as integration with client customizations
-> to EDR's SRF functionality continues.
+> to EDR's Collateral Overview functionality continues.
 >
-> Any SRF fields not included in the JSON schema must be entered
+> Any Collateral Overview fields not included in the JSON schema must be entered
 > manually via the Collateral 360 web application.
 
 The schema returned by this endpoint will contain basic data
@@ -54,20 +54,6 @@ considered literal examples of the data in these elements.
       "$id": "/properties/meta",
       "type": "object",
       "properties": {
-        "cabinet": {
-          "$id": "/properties/meta/properties/cabinet",
-          "type": "string",
-          "title": "The Cabinet Schema",
-          "minLength": 1,
-          "$ref": "#/definitions/cabinets"
-        },
-        "currency": {
-          "$id": "/properties/meta/properties/currency",
-          "type": "string",
-          "title": "The Currency Schema",
-          "minLength": 1,
-          "$ref": "#/definitions/currency"
-        },
         "updatedBy": {
           "$id": "/properties/meta/properties/updatedBy",
           "type": "string",
@@ -129,14 +115,7 @@ considered literal examples of the data in these elements.
     }
   },
   "definitions": {
-    "services": {
-      "$id": "/definitions/services",
-      "type": "object",
-      "default": "",
-      "enum": [
-        "Services as Objects..."
-      ]
-    },
+    ...
   }
 }
 ```
@@ -151,26 +130,16 @@ The following endpoints are defined by this API subsystem:
 ### <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 3px 10px; border-radius: 14px;">GET</span> **Service Request Details**
 
 ```text
-/api/v1.1/serviceRequest/co/fields
+/api/v1.1/collateralOverview/fields
 ```
 
 Accessing this endpoint via an HTTP `GET` method will return a
-representation of the fields available as part of your SRF.
+representation of the fields available as part of your Collateral Overview.
 
 The fields will broadly be delineated into three groups, each under their
 own data element:
 
-* The `meta` group contains descriptions of fields that describe the SRF,
-  but which are not actually visible SRF fields within Collateral 360.
-  These may represent data that are normally handled behind-the-scenes
-  or automatically within Collateral 360, and that therefore may require
-  special consideration by your application.
-
-  For example, if your organization uses cabinets in Collateral 360 to
-  organize your service requests, cabinet selection is ordinarily performed
-  in the user interface prior to entering data into the service request form
-  screen. When creating a service request via the API, the schema for the
-  cabinet selection field will accordingly appear in the `meta` section.
+* The `meta` group contains descriptions of fields that describe the Collateral Overview, but which are not actually visible Collateral Overview fields within Collateral 360. These may represent data that are normally handled behind-the-scenes or automatically within Collateral 360, and that therefore may require special consideration by your application.
 
 * The `transaction` section contains schemata for fields that are only
   entered once, regardless of how many collateral properties are part of
