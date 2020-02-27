@@ -30,7 +30,7 @@ The API endpoints are accessible via the HTTP `GET` method.
 
 ##### Body Parameters
 
-This endpoint does not accept and HTTP body parameters.
+This endpoint does not accept any HTTP body parameters.
 
 #### Response
 

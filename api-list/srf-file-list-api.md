@@ -44,7 +44,7 @@ of the available endpoint URLs only one can be supplied at a time.
 
 ##### Body Parameters
 
-This endpoint does not accept and HTTP body parameters.
+This endpoint does not accept any HTTP body parameters.
 
 #### Response
 

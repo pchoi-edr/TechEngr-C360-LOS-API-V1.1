@@ -48,14 +48,16 @@ The most basic JSON body is:
 }
 ```
 
-The updatedBy in the meta object has to be a user who has access to the loan, and we will log in the history entries that this user made the changes
-Based on what fields you want to update, you can either add specific fields in the transaction / collaterals object or all of them.
+The updatedBy in the meta object has to be a user who has access to the loan, and we will log in the history entries that this user made the changes.
+Based on what fields you want to update, you can either add specific fields in the **_Transaction_** & **_Collaterals_** object or all of them.
 
-Only the fields that are different will be updated. That means if you add LoanAmount as 4000, and the LoanAmount is currently 4000, that field wont get updated (no history entry will exist, and no emails will be sent)
+Only the fields that are different will be updated. That means if you add LoanAmount as 4000, and the LoanAmount is currently 4000, that field won't get updated (no history entry will exist and no emails will be sent)
 
 In the **_Transaction_** & **_Collaterals_** object, you can update one valid field or all.
 
 A more complex JSON body would look like the following:
+
+
 
 ```json
 {
@@ -190,7 +192,7 @@ A more complex JSON body would look like the following:
 
 The fields that you can use are present in the fields API located at this URL: /api/v1.1/collateralOverview/fields
 
-**NOTE:** if you use fields that are not present in the transaction / collateral of the loan, they wont get used an no error will be returned about them
+**NOTE:** if you use fields that are not present in the **_Transaction_** & **_Collaterals_** of the loan, they wont get used an no error will be returned about them
 
 #### Response
 

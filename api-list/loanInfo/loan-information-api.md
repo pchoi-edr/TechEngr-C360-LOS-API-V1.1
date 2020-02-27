@@ -30,7 +30,7 @@ The API endpoints are accessible via the HTTP `GET` method.
 
 ##### Body Parameters
 
-This endpoint does not accept and HTTP body parameters.
+This endpoint does not accept any HTTP body parameters.
 
 #### Response
 
@@ -52,10 +52,16 @@ an HTTP response code of `200` ("OK").
     "warnings": []
   },
   "data": {
+    "meta": {
+      "creator": {
+        "id": 12345,
+        "email": "email@domain.com"
+      }
+    },
     "transaction": {
       ...
     },
-    "callateral": {
+    "collaterals": {
       ...
     }
   }
