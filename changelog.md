@@ -9,6 +9,7 @@ The following changelog contains the revision history of this document:
 
 | Revision | Date | Primary Authors | Overview of Changes |
 | :--- | :--- | :--- | :--- |
+| 1.0.7 | Mar. 16, 2020 | Brian Cody | Added Documentation for Adding Service to Existing Request |
 | 1.0.6 | Feb. 20, 2020 | Philip Choi | Added 5 Tab Documentation |
 | 1.0.5 | Jan. 10, 2020 | Philip Choi | Minor editing mixes and link fixes |
 | 1.0.4 | Nov. 30, 2019 | Philip Choi | Added Collateral Overview Patch; Added Loan Information for Collateral Overview & Environmental Risk Codes |
