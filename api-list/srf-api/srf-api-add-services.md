@@ -63,7 +63,48 @@ This endpoint does not accept any query string parameters.
 ##### Expected HTTP Response Code
 
 When operating normally, this API endpoint will return
-an HTTP response code of `202` ("ACCEPTED"). This indicates that the request has been received by the system and is in process.
+an HTTP response code of `200` ("OK"). This indicates that the request has been received by the system and is in process.
+
+#### Pre-Processing Validation
+
+##### Request Validation
+
+The API will validate basic information from the request before it passes the data to the job for processing.
+
+###### User Validation
+
+If the `meta.updatedBy` is not present or empty, the API will fail. If the email address in `meta.updatedBy` is not valid or does not have access to the logged in company or the loan specifically, the API will return an error. Examples of those errors are as follows:
+
+``` json
+{
+    "description": "The requester's user account is unknown.",
+    "field": "meta.updatedBy"
+},
+{
+    "description": "The requester does not have access to the collateral you want to patch.",
+    "field": "meta.updatedBy"
+}
+```
+
+###### Services Validation
+
+There are a couple layers of pre-validation on the services as well. If the services are empty in the request, the following error will be returned:
+
+``` json
+{
+    "description": "At least one service must be defined.",
+    "field": "data.services"
+}
+```
+
+If one or more services in the request are not valid for the logged in company, the API will return the following error where `::List Of Valid Services::` is a complete list of the services that are able to be added for the `locationId` in the request:
+
+``` json
+{
+    "description": "The following services have invalid names: FakeServiceName. They must be a value in the enumeration: [::List Of Valid Services::]",
+    "field": "data.services.*.serviceType"
+}
+```
 
 #### Post-Processing Email Notification
 
