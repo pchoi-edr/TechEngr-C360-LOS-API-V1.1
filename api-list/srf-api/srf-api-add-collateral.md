@@ -22,6 +22,8 @@ The `Add Collateral` request contains a collection of collaterals and LOS attemp
 | :locationId | Integer | locationId OR loanId | The locationId to associate specified collateral. |
 | :loanId | Integer | locationId OR loanId | The loanId to associate specified collateral. |
 
+Either the `locationId` or the `loanId` **_must_** be present in the request. Additionally, the value that is present must be valid.
+
 #### Body Parameters
 
 The API request body conforms to the standard API request
@@ -169,6 +171,17 @@ an HTTP response code of `200` ("OK"). This indicates that the request has been 
 
 #### Pre-Processing Validation
 
+##### LoanId/LocationId Validation
+
+If the identifier in the path is invalid or the identifier cannot be found in the system, the following error will be returned:
+
+``` json
+{
+    "description": "The location id you are trying to use does not exist",
+    "field": ""
+}
+```
+
 ##### Concurrent Request Validation
 
 This endpoint currently only allows one request per loan to process at any given time. There is a validation step that ensures there is not already a request processing against the loan that is specified in the request. In the event that there is already a request in process, the following error will occur:
@@ -195,7 +208,7 @@ The Add Collateral endpoint restricts the maximum of collaterals on a single loa
 
 The API will validate the data from the request against the schema returned in the AddCollateral Fields API.
 
-###### User Validation
+##### User Validation
 
 If the `meta.updatedBy` is not present or is empty, the API will fail. If the email address in `meta.updatedBy` is not valid or does not have access to the logged in company or the loan specifically, the API will return an error. Examples of those errors are as follows:
 
@@ -209,3 +222,13 @@ If the `meta.updatedBy` is not present or is empty, the API will fail. If the em
     "field": "meta.updatedBy"
 }
 ```
+
+##### Completed Loan Validation
+
+If the collateral is attempting to be added to a loan that has been marked `completed`, the following error will be returned:
+
+``` json
+{
+  "description": "This loan can't be updated since it's marked as complete.",
+  "field": ""
+}
