@@ -4,7 +4,7 @@ In LOS API v1.1, the JSON template structure has more complex needs like having 
 
 Currently, Service Request Form, only supported 2 tab implementations, but with this current release, support for 5 tab implementation has been added.
 
-The impact to this change will affect the JSON Schema Model. The biggest impact is in the 'data' object withing the JSON Schema. Whereas in the previous implementation there was only 'transation' and 'collaterals', 5 Tab adds 'lenderInformation' to the 'data' object.
+The impact to this change will affect the JSON Schema Model. The biggest impact is in the 'data' object within the JSON Schema. Whereas in the previous implementation there was only 'transation' and 'collaterals', 5 Tab adds 'lenderInformation' to the 'data' object.
 
 Before:
 

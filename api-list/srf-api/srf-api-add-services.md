@@ -1,9 +1,9 @@
-# Service Request Form API - POST
+# Service Request - Add Services API - POST
 
 ### <span style="background-color: #5493dc; font-weight: bold; color: #ffffff; padding: 3px 10px; border-radius: 14px;">POST</span> **Add Service(s) to Service Request**
 
 ```text
-/api/v1.1/serviceRequest/:locationId/services
+/api/v1.1/serviceRequest/addService/:locationId
 ```
 
 The `Add Service` request contains a collection of service types and LOS attempts to add them to an existing loan specified by the `locationId` in the path. Internally, the processing is done asychronously via a job. Consequently, the information regarding the result of the processing will be sent in an email when the job has completed. However, if the request does not pass the initial validation, the user would see an error message in the response from the endpoint.
