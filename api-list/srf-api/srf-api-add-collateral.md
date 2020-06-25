@@ -3,10 +3,10 @@
 ### <span style="background-color: #5493dc; font-weight: bold; color: #ffffff; padding: 3px 10px; border-radius: 14px;">POST</span> **Add Collateral(s) to Service Request**
 
 ```text
-/api/v1.1/serviceRequest/addCollateral/loanID/:loanId
+/api/v1.1/serviceRequest/addCollateral/loanID/:loanID
 ```
 ```text
-/api/v1.1/serviceRequest/addCollateral/locationID/:locationId
+/api/v1.1/serviceRequest/addCollateral/locationID/:locationID
 ```
 
 The `Add Collateral` request contains a collection of collaterals and LOS attempts to add them to an existing loan. There are two ways to use the `Add Collateral` API:
@@ -19,10 +19,10 @@ The `Add Collateral` request contains a collection of collaterals and LOS attemp
 
 | Path Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| :locationId | Integer | locationId OR loanId | The locationId to associate specified collateral. |
-| :loanId | Integer | locationId OR loanId | The loanId to associate specified collateral. |
+| :locationID | Integer | locationID OR loanID | The locationID to associate specified collateral. |
+| :loanID | Integer | locationID OR loanID | The loanID to associate specified collateral. |
 
-Either the `locationId` or the `loanId` **_must_** be present in the request. Additionally, the value that is present must be valid.
+Either the `locationID` or the `loanID` **_must_** be present in the request. Additionally, the value that is present must be valid.
 
 #### Body Parameters
 
