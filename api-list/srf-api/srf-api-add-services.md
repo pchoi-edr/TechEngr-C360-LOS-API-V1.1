@@ -3,10 +3,10 @@
 ### <span style="background-color: #5493dc; font-weight: bold; color: #ffffff; padding: 3px 10px; border-radius: 14px;">POST</span> **Add Service(s) to Service Request**
 
 ```text
-/api/v1.1/serviceRequest/addService/:locationId
+/api/v1.1/serviceRequest/addService/:locationID
 ```
 
-The `Add Service` request contains a collection of service types and LOS attempts to add them to an existing loan specified by the `locationId` in the path. Internally, the processing is done asychronously via a job. Consequently, the information regarding the result of the processing will be sent in an email when the job has completed. However, if the request does not pass the initial validation, the user would see an error message in the response from the endpoint.
+The `Add Service` request contains a collection of service types and LOS attempts to add them to an existing loan specified by the `locationID` in the path. Internally, the processing is done asychronously via a job. Consequently, the information regarding the result of the processing will be sent in an email when the job has completed. However, if the request does not pass the initial validation, the user would see an error message in the response from the endpoint.
 
 #### Request
 
@@ -14,7 +14,7 @@ The `Add Service` request contains a collection of service types and LOS attempt
 
 | Path Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| :locationId | Integer | Yes | The locationId to associate specified services. |
+| :locationID | Integer | Yes | The locationID to associate specified services. |
 
 
 ##### Body Parameters
@@ -97,7 +97,7 @@ There are a couple layers of pre-validation on the services as well. If the serv
 }
 ```
 
-If one or more services in the request are not valid for the logged in company, the API will return the following error where `::List Of Valid Services::` is a complete list of the services that are able to be added for the `locationId` in the request:
+If one or more services in the request are not valid for the logged in company, the API will return the following error where `::List Of Valid Services::` is a complete list of the services that are able to be added for the `locationID` in the request:
 
 ``` json
 {
