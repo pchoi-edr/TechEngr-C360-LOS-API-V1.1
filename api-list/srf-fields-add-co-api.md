@@ -238,7 +238,7 @@ example response follows.
                 "title": "The Updated By Schema",
                 "minLength": 1,
                 "format": "email"
-              }
+              },
 							"processAsWarnings": {
 								"$id": "/properties/meta/properties/processAsWarnings",
 								"type": "boolean",
