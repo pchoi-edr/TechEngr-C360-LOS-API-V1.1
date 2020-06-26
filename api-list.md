@@ -13,6 +13,8 @@ supported by the LOS API.
   * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/serviceRequest/fields
 * [Collateral Overview Fields API](api-list/srf-fields-co-api.md)
   * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/collateralOverview/fields
+* [Service Request Fields API](api-list/srf-fields-add-co-api.md)
+  * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/addCollateral/fields
 * [Service Request API](api-list/srf-api.md)
   * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/form
   * <span style="background-color: #5493dc; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(PUT)</span> /api/v1.1/serviceRequest/form
