@@ -60,7 +60,7 @@ considered literal examples of the data in these elements.
           "title": "The Updated By Schema",
           "minLength": 1,
           "format": "email"
-        }
+        },
         "processAsWarnings": {
           "$id": "/properties/meta/properties/processAsWarnings",
           "type": "boolean",
@@ -108,7 +108,7 @@ considered literal examples of the data in these elements.
                     }
                   }
                 }
-              }
+              },
               "required": [
                 "Required Collateral Fields..."
               ]
@@ -200,7 +200,7 @@ examples of the data in these elements.
       },
     },
     "dataTemplates": {
-      "json": {"JSON Object Format..."},
+      "json": {"JSON Object Format..."}
     }
   }
 }
@@ -315,6 +315,7 @@ example response follows.
           ]
         },
       }
+    }
   }
 }
 ```
