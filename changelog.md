@@ -9,7 +9,7 @@ The following changelog contains the revision history of this document:
 
 | Revision | Date | Primary Authors | Overview of Changes |
 | :--- | :--- | :--- | :--- |
-| 1.0.8 | June 25, 2020 | Brian Cody | Added Documentation for Adding Collateral to Existing Request |
+| 1.0.8 | June 26, 2020 | Brian Cody | Added Documentation for Adding Collateral to Existing Request |
 | 1.0.7 | Mar. 16, 2020 | Brian Cody | Added Documentation for Adding Service to Existing Request |
 | 1.0.6 | Feb. 20, 2020 | Philip Choi | Added 5 Tab Documentation |
 | 1.0.5 | Jan. 10, 2020 | Philip Choi | Minor editing mixes and link fixes |

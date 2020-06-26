@@ -22,7 +22,7 @@
     - [Multiple JSON Template Versions](api-list/srffields/srf-fields-json-versions.md)
     - [5 Tab Implementation](api-list/srffields/srf-fields-5-tab-version.md)
   * [Collateral Overview Fields API](api-list/srf-fields-co-api.md)
-  * [Service Request Fields Collateral Overview](api-list/srf-fields-co-api.md)
+  * [Add Collateral Fields API *](api-list/srf-fields-add-co-api.md)
   * [Service Request API](api-list/srf-api.md)
     - [Collateral Limits](api-list/srf-api/srf-api-collateral-limits.md)
     - [Service Request Submission Queue Processing](api-list/srf-api/srf-api-queue.md)
@@ -39,6 +39,7 @@
     - [Utilities API: Document Status](api-list/utilities/document-status.md)
 * What's New
   * [Service Request API - Add Collateral *](api-list/srf-api/srf-api-add-collateral.md)
+  * [Add Collateral Fields API *](api-list/srf-fields-add-co-api.md)
 * [Appendix 1 - API Transfer Protocol](api-transfer-protocol.md)
 * [Appendix 2 - Request/Response Structure](request-response-structure.md)
 * [Appendix 3 - Technical Review](api-background.md)
