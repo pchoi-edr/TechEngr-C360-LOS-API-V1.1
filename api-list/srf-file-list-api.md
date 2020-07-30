@@ -100,7 +100,42 @@ an HTTP response code of `200` ("OK").
             "name": "Report Title",
             "value": "Special Instructions for Appraisal"
           }
-        ]
+        ],
+        "access": {
+          "internalUsers": [
+            {
+              "individualUsers": [
+                {
+                  "firstName": "Test",
+                  "lastName": "Example",
+                  "email": "user@example.com",
+                  "company": "Test Company",
+                  "expiringAt": null,
+                  "role": "Admin",
+                  "grantedAt": "2020-07-21T21:29:05.000000Z"
+                },
+                {
+                  "firstName": "Test",
+                  "lastName": "Example",
+                  "email": "user@example.gom",
+                  "company": "Test Company",
+                  "expiringAt": "2020-08-31T04:00:00.000000Z",
+                  "role": "Manager",
+                  "grantedAt": "2020-07-21T22:13:31.000000Z"
+                }
+              ]
+            },
+            {
+              "userGroups": [
+                {
+                    "groupName": "All Lender Users",
+                    "expiringAt": "2020-08-28T04:00:00.000000Z",
+                    "grantedAt": "2020-07-21T22:13:53.000000Z"
+                }
+              ]
+            }
+          ]
+        }
       }
     ]
   }
@@ -138,6 +173,8 @@ an array of optional metadata associated with the file. This
 list is subject to expansion over time, so client applications
 should be tolerant of new attributes.
 
+Additionally, the `access` field contains a listing of all _internal_ users and groups that have access to the respective file. The structure is composed of a nested `internalUsers` array that contains two other arrays -- `individualUsers` and `userGroups`.
+
 For the benefit of LOS API integrators, the data types
 of the major foregoing fields are as follow:
 
@@ -167,6 +204,27 @@ For the JSON elements inside the `attributes` element:
 | :--- | :--- | :--- | :--- | :--- |
 | `name` | String | 255 | Characters | |
 | `value` | String | 255 | Characters | |
+
+For the JSON elements inside the `access->individualUsers` element:
+
+| JSON Attribute | Data Type | Size | Size Unit* | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| `firstName` | String | 255 | Characters | |
+| `lastName` | String | 255 | Characters | |
+| `email` | String | 255 | Characters | |
+| `company` | String | 255 | Characters | |
+| `expiringAt` | DateTime | | | The datetime will be in UTC. If the access does not expire, this value will be `null` | 
+| `role` | String | 255 | Characters | |
+| `grantedAt` | DateTime | | | The datetime will be in UTC |
+
+For the JSON elements inside the `access->userGroups` element:
+
+| JSON Attribute | Data Type | Size | Size Unit* | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| `groupName` | String | 255 | Characters | |
+| `expiringAt` | DateTime | | | The datetime will be in UTC. If the access does not expire, this value will be `null` |
+| `grantedAt` | DateTime | | | The datetime will be in UTC |
+
 
 \* _N.b._ all character lengths assume a UTF-8 encoding,
   and therefore require a maximum of four octets per
