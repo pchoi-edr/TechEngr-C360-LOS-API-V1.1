@@ -206,6 +206,7 @@ For the JSON elements inside the `attributes` element:
 | `value` | String | 255 | Characters | |
 
 For the JSON elements inside the `access->individualUsers` element:
+
 | JSON Attribute | Data Type | Size | Size Unit* | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | `firstName` | String | 255 | Characters | |
@@ -217,6 +218,7 @@ For the JSON elements inside the `access->individualUsers` element:
 | `grantedAt` | DateTime | | | The datetime will be in UTC |
 
 For the JSON elements inside the `access->userGroups` element:
+
 | JSON Attribute | Data Type | Size | Size Unit* | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | `groupName` | String | 255 | Characters | |
