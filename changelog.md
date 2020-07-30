@@ -9,6 +9,7 @@ The following changelog contains the revision history of this document:
 
 | Revision | Date | Primary Authors | Overview of Changes |
 | :--- | :--- | :--- | :--- |
+| 1.0.9 | July 30, 2020 | Brian Cody | Added Documentation for updated File List endpoint (now including access information) |
 | 1.0.8 | June 26, 2020 | Brian Cody | Added Documentation for Adding Collateral to Existing Request |
 | 1.0.7 | Mar. 16, 2020 | Brian Cody | Added Documentation for Adding Service to Existing Request |
 | 1.0.6 | Feb. 20, 2020 | Philip Choi | Added 5 Tab Documentation |
