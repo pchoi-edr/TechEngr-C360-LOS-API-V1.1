@@ -35,11 +35,11 @@ supported by the LOS API.
   * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/files/upload/locationID/:locationID/uploadedBy/:uploadedBy
 * [Utilities API](api-list/utilities/list.md)
   * [Utilities API: Service Types](api-list/utilities/service-types.md)
-    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/utilitiy/serviceTypes
+    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /utility/serviceTypes
   * [Utilities API: Document Types](api-list/utilities/document-types.md)
-    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/utilitiy/documentTypes
+    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /utility/documentTypes
   * [Utilities API: Document Status](api-list/utilities/document-status.md)
-    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/utilitiy/documentStatus
+    * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /utility/documentStatus
 
 ## Conventions
 
