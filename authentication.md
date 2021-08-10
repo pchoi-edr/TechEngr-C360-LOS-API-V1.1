@@ -186,9 +186,9 @@ request:
 
 **UAT:**
 
-    https://uatlosapi-mt.collateral360.com/api/v1.1/serviceRequest/fields
+    https://losapi-uat.collateral360.com/api/v1.1/serviceRequest/fields
 
-**Production (_to be determined, but tentatively_):**
+**Production:**
 
     https://losapi.collateral360.com/api/v1.1/serviceRequest/fields
 
@@ -199,12 +199,12 @@ To do so, you would invoke curl at the command line like so
 **UAT:**
 
  ```
-curl https://uatlosapi-mt.collateral360.com/api/v1.1/serviceRequest/fields \
+curl https://losapi-uat.collateral360.com/api/v1.1/serviceRequest/fields \
   -H "Authorization: Bearer EXAMPLE_ACCESS_TOKEN" \
   -H "Content-Type: application/json"
 ```
 
-**Production (_to be determined, but tentatively_):**
+**Production:**
 
  ```
 curl https://losapi.collateral360.com/api/v1.1/serviceRequest/fields \
