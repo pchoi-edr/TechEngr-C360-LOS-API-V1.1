@@ -36,7 +36,7 @@ requirements described above.
 ``` json
 {
 	"meta": {
-		"updatedBy": "fake_efbae2a5-1e6@chase.com"
+		"updatedBy": "fake_efbae2a5-1e6@example.com"
 	},
 	"data": {
 		"services": [

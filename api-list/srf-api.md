@@ -47,7 +47,7 @@ top-level `meta` element:
   "meta": {
     "requestedBy": "testmanager@edrnet.com",
     "createdBy": "testmanager@edrnet.com",
-    "cabinet": "zTest - CIBA Staff Use Only",
+    "cabinet": "Testing Cabinet",
     "currency": "USD",
     "srfAction": "DRAFT",
     "processAsWarnings": true
@@ -184,7 +184,7 @@ SRF Fields API):
   "meta": {
     "requestedBy": "creator@example.com",
     "createdBy": "testmanager@edrnet.com",
-    "cabinet": "zTest - CIBA Staff Use Only",
+    "cabinet": "Testing Cabinet",
     "currency": "USD",
     "srfAction": "DRAFT",
     "processAsWarnings": true

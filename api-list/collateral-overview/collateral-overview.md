@@ -72,12 +72,12 @@ A more complex JSON body would look like the following:
       "BorrowerName": "Jack Bauer done",
       "ecid": 444,
       "CostCenter": "909102",
-      "RequesterAID": "fake_399fa74e-086@chase.com",
-      "AccountOfficerAID": "fake_399fa74e-086@chase.com",
+      "RequesterAID": "fake_399fa74e-086@example.com",
+      "AccountOfficerAID": "fake_399fa74e-086@example.com",
       "CompanyNumber": "0001",
       "LendingGroup": "BUSINESS BANKING WEST",
       "TeamLeadAID": [
-        "fake_399fa74e-086@chase.com"
+        "fake_399fa74e-086@example.com"
       ],
       "ClosingDate": "12/31/2019",
       "DesiredReviewDeliveryDate": "12/30/2019",
@@ -117,7 +117,7 @@ A more complex JSON body would look like the following:
         "PropertyNumbers": "9999",
         "Comments": "comments text done",
         "availableReports": "not available done",
-        "Purpose": "New Loan to JPMC",
+        "Purpose": "New Loan",
         "AppraisalPriority": "High Priority",
         "ofsiReportReview": false,
         "PropInterest": [

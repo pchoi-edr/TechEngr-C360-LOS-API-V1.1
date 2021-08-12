@@ -15,10 +15,10 @@ In version 1.1, EDR has released Vendor information in the Status API. For the e
 2. `vendor` which is an object
     ```json
     "vendor": {
-        "accountId": 63404,
-        "companyName": "Colliers International",
-        "name": "William Loker",
-        "emailAddress": "fake_7441723a-68d@colliers.com",
+        "accountId": 12345,
+        "companyName": "Test Vendor Company",
+        "name": "Tony Vendor",
+        "emailAddress": "fake_7441723a-68d@example.com",
         "rating": {
             "quality": "3/5",
             "service": "4/5",
@@ -57,10 +57,10 @@ In version 1.1, EDR has released Vendor information in the Status API. For the e
     ```json
     "participatingVendors": [
         {
-            "vendorID": 5,
-            "companyName": "Cushman & Wakefield LIHCT",
-            "email": "fake_e81ab9da-68d@cushwake.com",
-            "name": "Michele Kauffman",
+            "vendorID": 1,
+            "companyName": "Test Vendor Company",
+            "email": "fake_e81ab9da-68d@example.com",
+            "name": "Test Vendor",
             "contribution": "Authored"
         }
     ]
@@ -142,10 +142,10 @@ Sample of a full JSON response from Status API
               "updated": "2019-09-26T13:25:09Z",
               "hasEngagedVendor": "Yes",
               "vendor": {
-                "accountId": 62913,
-                "companyName": "Newmark Knight Frank.",
-                "name": "John Mackris",
-                "emailAddress": "fake_997b4d9b-68d@ngkf.com",
+                "accountId": 54321,
+                "companyName": "Test Vendor Company",
+                "name": "John Vendor",
+                "emailAddress": "fake_997b4d9b-68d@example.com",
                 "rating": {
                   "quality": 5,
                   "service": 4,
@@ -161,23 +161,23 @@ Sample of a full JSON response from Status API
               "participatingVendors": [
                 {
                   "vendorID": 2,
-                  "companyName": "Integra Realty Resources, Inc.",
-                  "email": "fake_5ab4639f-68d@irr.com",
-                  "name": "Fitzhugh L Stout",
+                  "companyName": "Vendor Company Test",
+                  "email": "fake_5ab4639f-68d@example.com",
+                  "name": "Test L Vendor",
                   "contribution": "Performed"
                 },
                 {
                   "vendorID": 3,
-                  "companyName": "National Valuation Consultants, Inc.",
-                  "email": "fake_d612c868-68d@nvcinc.com",
-                  "name": "Matthew Ansay",
+                  "companyName": "Company Vendor Test",
+                  "email": "fake_d612c868-68d@example.com",
+                  "name": "Mike Vendor",
                   "contribution": "Authored"
                 },
                 {
                   "vendorID": 4,
-                  "companyName": "Valbridge Property Advisors/Cantrell Miller",
-                  "email": "fake_688e7cb6-68d@valbridge.com",
-                  "name": "Guido Villanueva",
+                  "companyName": "Vendor Company Test Name",
+                  "email": "fake_688e7cb6-68d@example.com",
+                  "name": "Guido Vendor",
                   "contribution": "Other"
                 }
               ]
@@ -200,10 +200,10 @@ Sample of a full JSON response from Status API
               "updated": "2019-09-30T12:48:12Z",
               "hasEngagedVendor": "Yes",
               "vendor": {
-                "accountId": 63404,
-                "companyName": "Colliers International",
-                "name": "William Loker",
-                "emailAddress": "fake_7441723a-68d@colliers.com",
+                "accountId": 12345,
+                "companyName": "Test International",
+                "name": "William Vendor",
+                "emailAddress": "fake_7441723a-68d@example.com",
                 "rating": {
                   "quality": "",
                   "service": "",
@@ -216,9 +216,9 @@ Sample of a full JSON response from Status API
               "participatingVendors": [
                 {
                   "vendorID": 5,
-                  "companyName": "Cushman & Wakefield LIHCT",
-                  "email": "fake_e81ab9da-68d@cushwake.com",
-                  "name": "Michele Kauffman",
+                  "companyName": "Testing Vendor Co.",
+                  "email": "fake_e81ab9da-68d@example.com",
+                  "name": "Michele Vendor",
                   "contribution": "Authored"
                 }
               ]
