@@ -18,4 +18,4 @@ the full list of possible values.
 | Method Not Allowed | 405 | The specified HTTP method is not allowed for the API endpoint. For example, an HTTP `GET` request was made to an endpoint that only accepts `POST` requests. |
 | Too Many Requests | 429 | Too many API requests have been issued in a period of time. Wait for a while and then try to resubmit the request. If your application submits multiple requests in a large batch, consider introducing a delay or velocity limitation. |
 | Internal Server Error | 500 | A technical error occured in the API server. This indicates a problem within the API server itself. |
-| Not Implemented | 501 | The API request attempted to perform an action that is not yet implemented on EDR's servers. This is only likely to occur during a closed beta test of new features. |
+| Not Implemented | 501 | The API request attempted to perform an action that is not yet implemented on LightBox's servers. This is only likely to occur during a closed beta test of new features. |

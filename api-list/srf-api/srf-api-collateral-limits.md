@@ -2,7 +2,7 @@
 
 ## Collateral Limits
 
-EDR's Non-Draft Service Request Form, is currently limiting the number of collaterals that can be submitted to the Service Request Form API.
+LightBox's Non-Draft Service Request Form, is currently limiting the number of collaterals that can be submitted to the Service Request Form API.
 
 ### **Single Non-Draft Service Request Form**
 

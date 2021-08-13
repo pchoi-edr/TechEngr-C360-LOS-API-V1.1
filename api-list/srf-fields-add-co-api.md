@@ -15,7 +15,7 @@ to add collateral to an existing loan.
 > list returned by this endpoint will be substantially complete,
 > but some fields may not be present. These fields will be
 > added to the schema as integration with client customizations
-> to EDR's Add Collateral functionality continues.
+> to LightBox's Add Collateral functionality continues.
 >
 > Any Add Collateral fields not included in the JSON schema must be entered
 > manually via the Collateral 360 web application.

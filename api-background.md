@@ -1,7 +1,7 @@
 
 # Appendix 3 - Technical Review
 
-EDR's APIs are made available over TLS-encrypted HTTPS. Client
+LightBox's APIs are made available over TLS-encrypted HTTPS. Client
 authentication is performed using OAuth2.
 
 The API protocol itself is formatted as JSON, and uses a consistent
@@ -31,9 +31,9 @@ the user agent from which a client performs an HTTP request. For example,
 in common Web browsers the URL is typically limited to a few kilobytes in
 length.
 
-Due to the prevalence of arbitrary limitations on URL length, EDR may
+Due to the prevalence of arbitrary limitations on URL length, LightBox may
 choose to use an HTTP `POST` method in place of any other, more
-appropriate HTTP method if EDR's technologists deem it desirable to
+appropriate HTTP method if LightBox's technologists deem it desirable to
 handle URLs of arbitrary length for the affected API endpoint. If so,
 this decision will be noted in the documentation.
 

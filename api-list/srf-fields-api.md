@@ -15,7 +15,7 @@ service requests.
 > list returned by this endpoint will be substantially complete,
 > but some fields may not be present. These fields will be
 > added to the schema as integration with client customizations
-> to EDR's SRF functionality continues.
+> to LightBox's SRF functionality continues.
 >
 > Any SRF fields not included in the JSON schema must be entered
 > manually via the Collateral 360 web application.

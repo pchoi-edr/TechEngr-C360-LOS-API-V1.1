@@ -41,13 +41,13 @@ The returned data looks like the following
       },
       {
         "serviceType": "Aerial",
-        "displayName": "EDR Aerial Photo Package",
+        "displayName": "LightBox Aerial Photo Package",
         "featureID": 81,
         "featureName": "Procure New Services",
         "serviceGroupID": 72,
         "serviceGroup": "Environmental Services",
         "isExternal": 1,
-        "type": "EDR",
+        "type": "LightBox",
         "reportID": 74215,
         "categoryID": 1,
         "subCategoryID": "5",
@@ -81,13 +81,13 @@ The usage is you select the Service Types you need and use the stringified versi
 [
   {
     "serviceType": "Aerial",
-    "displayName": "EDR Aerial Photo Package",
+    "displayName": "LightBox Aerial Photo Package",
     "featureID": 81,
     "featureName": "Procure New Services",
     "serviceGroupID": 72,
     "serviceGroup": "Environmental Services",
     "isExternal": 1,
-    "type": "EDR",
+    "type": "LightBox",
     "reportID": 74215,
     "categoryID": 1,
     "subCategoryID": "5",
@@ -111,7 +111,7 @@ The usage is you select the Service Types you need and use the stringified versi
 ```
 
 ```text
-[{"serviceType":"Aerial","displayName":"EDR Aerial Photo Package","featureID":81,"featureName":"Procure New Services","serviceGroupID":72,"serviceGroup":"Environmental Services","isExternal":1,"type":"EDR","reportID":74215,"categoryID":1,"subCategoryID":"5","showOnSRF":0},{"serviceType":"Agency","displayName":"Agency File Review","featureID":81,"featureName":"Procure New Services","serviceGroupID":72,"serviceGroup":"Environmental Services","isExternal":1,"type":"RFP","reportID":74226,"categoryID":1,"subCategoryID":"6","showOnSRF":0}]
+[{"serviceType":"Aerial","displayName":"LightBox Aerial Photo Package","featureID":81,"featureName":"Procure New Services","serviceGroupID":72,"serviceGroup":"Environmental Services","isExternal":1,"type":"LightBox","reportID":74215,"categoryID":1,"subCategoryID":"5","showOnSRF":0},{"serviceType":"Agency","displayName":"Agency File Review","featureID":81,"featureName":"Procure New Services","serviceGroupID":72,"serviceGroup":"Environmental Services","isExternal":1,"type":"RFP","reportID":74226,"categoryID":1,"subCategoryID":"6","showOnSRF":0}]
 ```
 
 As we add further functionality to LOS API's, the functional usage may differ. Currently, only the [File Upload API](../srf-file-upload-api.md), requires that the data used be stringified, but other API's usage may not and may require you submit data as an Object of Arrays

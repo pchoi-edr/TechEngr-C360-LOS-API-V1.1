@@ -12,7 +12,7 @@ Note that an exhaustive knowledge of OAuth2 is not required to
 begin using our APIs, though you may find some background
 information about the process helpful or instructive.
 
-For authentication via OAuth2, EDR uses only the "client
+For authentication via OAuth2, LightBox uses only the "client
 credentials" authorization grant. A general OAuth2
 workflow can be seen in the following diagram.
 
@@ -20,7 +20,7 @@ workflow can be seen in the following diagram.
     <img src="./auth-seq.png" width="400">
 </div>
 
-## Obtaining a Client ID and Secret Key from EDR.
+## Obtaining a Client ID and Secret Key from LightBox.
 
 Every institution or individual allowed to access the LOS API
 system is identified by two separate data:
@@ -37,14 +37,14 @@ system is identified by two separate data:
   its associated client ID.
 
 During the API's initial closed testing phase, these access
-credentials will be provided by EDR's technology team on an
+credentials will be provided by LightBox's technology team on an
 _ad hoc_ basis. After this phase of the project is complete,
-EDR will publish updated instructions on how to request
+LightBox will publish updated instructions on how to request
 and receive access credentials.
 
 ## Obtaining a Time-Limited Access Token
 
-Every API request sent to EDR's servers must contain an access
+Every API request sent to LightBox's servers must contain an access
 token, which is used to prove that the sender has successfully
 authenticated itself as an application acting on behalf of a
 registered user of the system.

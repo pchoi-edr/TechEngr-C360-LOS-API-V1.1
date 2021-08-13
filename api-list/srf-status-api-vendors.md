@@ -1,6 +1,6 @@
 # SRF Status API - Engagement Vendors
 
-In version 1.1, EDR has released Vendor information in the Status API. For the end user, nothing needs to be provided. Vendor information will be provided as part of the GET Status call. If Engagement Vendor details are available, vendor details will now be provided as part of the status response package.
+In version 1.1, LightBox has released Vendor information in the Status API. For the end user, nothing needs to be provided. Vendor information will be provided as part of the GET Status call. If Engagement Vendor details are available, vendor details will now be provided as part of the status response package.
 
 #### Response
 

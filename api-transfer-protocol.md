@@ -22,7 +22,7 @@ HTTP 1.1.
 Requests issued to the LOS API are only acted upon if they
 contain a token indicating that the sender has been
 authenticated as a known client application registered with
-EDR. These tokens expire after a certain amount of time,
+LightBox. These tokens expire after a certain amount of time,
 so client applications must periodically re-authenticate with
 the LOS API system.
 

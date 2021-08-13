@@ -34,7 +34,7 @@ it will ignore them, and continue processing the request
 without considering the presence of these unknown
 attributes to be an error.
 
-This is by design, since in the future EDR may choose
+This is by design, since in the future LightBox may choose
 to include these extra attributes in API responses in
 order to facilitate chaining invocations of our API
 endpoints with invocations of other services. In some
@@ -253,7 +253,7 @@ the following values in its `meta` element:
   human-readable string that describes the nature of either
   the API endpoint or the specific response. This is currently
   for descriptive purposes and to facilitate debugging client
-  applications, but EDR may decide to assign permanent meaning
+  applications, but LightBox may decide to assign permanent meaning
   to this field in the future. It should be treated as an
   opaque string by your application, and this specification
   neither defines its values nor guarantees they will not

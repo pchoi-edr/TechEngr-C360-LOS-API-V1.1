@@ -6,7 +6,7 @@
 | API Endpoint | The combination of a URL path and an HTTP method used to access a single function of the LOS API. For example, to create and update a draft service request, two separate API endpoints must be accessed. | 
 | Application Programming Interface | A well-defined set of software interfaces designed to allow a program to interoperate with other programs. |
 | C360 | See "Collateral 360" |
-| Collateral 360 | EDR's workflow management software for managing real estate due diligence tasks. |
+| Collateral 360 | LightBox's workflow management software for managing real estate due diligence tasks. |
 | Curl | A command-line application (invoked as `curl`) designed to perform requests using URLs. |
 | Endpoint | See "API Endpoint" |
 | JSON | An abbreviation for JavaScript Object Notation. This is a standard textual data format for representing complex data structures. It is defined at https://www.json.org/ |

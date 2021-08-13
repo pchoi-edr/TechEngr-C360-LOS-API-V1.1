@@ -25,7 +25,7 @@ element will usually contain the following additional data:
     the error, then this will instead be the empty
     string).
   
-  EDR may add more attributes to each error message over
+  LightBox may add more attributes to each error message over
   time. Your application should be written in such a way
   that the addition of these new attributes will not cause
   an error.
