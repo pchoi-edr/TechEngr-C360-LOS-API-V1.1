@@ -18,7 +18,7 @@ supported by the LOS API.
 * [Service Request API](api-list/srf-api.md)
   * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/form
   * <span style="background-color: #5493dc; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(PUT)</span> /api/v1.1/serviceRequest/form
-  * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/addService/:locationID
+  * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/addService/locationID/:locationID
   * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/addCollateral/loanID/:loanID
   * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/serviceRequest/addCollateral/locationID/:locationID
 * [Service Request Status API](api-list/srf-status-api.md)
