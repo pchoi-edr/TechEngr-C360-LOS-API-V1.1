@@ -16,11 +16,6 @@ The following endpoints are available in this API subsystem:
 
 ### <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 3px 10px; border-radius: 14px;">POST</span> **OAuth2 Access Token**
 
-{Deprecated}
-```text
-/api/v1.1/oauth/token
-```
-
 ```text
 /api/v1.1/oauth/token
 ```
