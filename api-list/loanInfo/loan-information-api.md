@@ -55,7 +55,7 @@ an HTTP response code of `200` ("OK").
     "meta": {
       "creator": {
         "id": 12345,
-        "email": "email@domain.com"
+        "email": "email@example.com"
       }
     },
     "transaction": {

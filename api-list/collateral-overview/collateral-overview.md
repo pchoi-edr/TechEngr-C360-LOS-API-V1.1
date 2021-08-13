@@ -36,7 +36,7 @@ The most basic JSON body is:
 ```json
 {
     "meta": {
-        "updatedBy": "email@email.com"
+        "updatedBy": "email@example.com"
     },
     "data": {
 	"transaction": {
@@ -62,7 +62,7 @@ A more complex JSON body would look like the following:
 ```json
 {
   "meta": {
-    "updatedBy": "emailUser@domain.com"
+    "updatedBy": "emailUser@example.com"
   },
   "data": {
     "transaction": {
@@ -72,12 +72,12 @@ A more complex JSON body would look like the following:
       "BorrowerName": "Jack Bauer done",
       "ecid": 444,
       "CostCenter": "909102",
-      "RequesterAID": "fake_399fa74e-086@example.com",
-      "AccountOfficerAID": "fake_399fa74e-086@example.com",
+      "RequesterAID": "requestor@example.com",
+      "AccountOfficerAID": "accountofficer@example.com",
       "CompanyNumber": "0001",
       "LendingGroup": "BUSINESS BANKING WEST",
       "TeamLeadAID": [
-        "fake_399fa74e-086@example.com"
+        "teamlead@example.com"
       ],
       "ClosingDate": "12/31/2019",
       "DesiredReviewDeliveryDate": "12/30/2019",
@@ -112,7 +112,7 @@ A more complex JSON body would look like the following:
         "PropLatitude": "34.066491",
         "PropLongitude": "-117.928287",
         "ContactPhone": "7777",
-        "ContactEmail": "test1234@edrnet.com",
+        "ContactEmail": "test1234@example.com",
         "ContactAltPhone": "8888",
         "PropertyNumbers": "9999",
         "Comments": "comments text done",

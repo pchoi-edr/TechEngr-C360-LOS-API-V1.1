@@ -18,7 +18,7 @@ In version 1.1, EDR has released Vendor information in the Status API. For the e
         "accountId": 12345,
         "companyName": "Test Vendor Company",
         "name": "Tony Vendor",
-        "emailAddress": "fake_7441723a-68d@example.com",
+        "emailAddress": "tvendor@example.com",
         "rating": {
             "quality": "3/5",
             "service": "4/5",
@@ -59,7 +59,7 @@ In version 1.1, EDR has released Vendor information in the Status API. For the e
         {
             "vendorID": 1,
             "companyName": "Test Vendor Company",
-            "email": "fake_e81ab9da-68d@example.com",
+            "email": "tvendor@example.com",
             "name": "Test Vendor",
             "contribution": "Authored"
         }
@@ -145,7 +145,7 @@ Sample of a full JSON response from Status API
                 "accountId": 54321,
                 "companyName": "Test Vendor Company",
                 "name": "John Vendor",
-                "emailAddress": "fake_997b4d9b-68d@example.com",
+                "emailAddress": "jvendor@example.com",
                 "rating": {
                   "quality": 5,
                   "service": 4,
@@ -162,21 +162,21 @@ Sample of a full JSON response from Status API
                 {
                   "vendorID": 2,
                   "companyName": "Vendor Company Test",
-                  "email": "fake_5ab4639f-68d@example.com",
+                  "email": "tlvendor@example.com",
                   "name": "Test L Vendor",
                   "contribution": "Performed"
                 },
                 {
                   "vendorID": 3,
                   "companyName": "Company Vendor Test",
-                  "email": "fake_d612c868-68d@example.com",
+                  "email": "mvendor@example.com",
                   "name": "Mike Vendor",
                   "contribution": "Authored"
                 },
                 {
                   "vendorID": 4,
                   "companyName": "Vendor Company Test Name",
-                  "email": "fake_688e7cb6-68d@example.com",
+                  "email": "gvendor@example.com",
                   "name": "Guido Vendor",
                   "contribution": "Other"
                 }
@@ -203,7 +203,7 @@ Sample of a full JSON response from Status API
                 "accountId": 12345,
                 "companyName": "Test International",
                 "name": "William Vendor",
-                "emailAddress": "fake_7441723a-68d@example.com",
+                "emailAddress": "wvendor@example.com",
                 "rating": {
                   "quality": "",
                   "service": "",
@@ -217,7 +217,7 @@ Sample of a full JSON response from Status API
                 {
                   "vendorID": 5,
                   "companyName": "Testing Vendor Co.",
-                  "email": "fake_e81ab9da-68d@example.com",
+                  "email": "mvendor@example.com",
                   "name": "Michele Vendor",
                   "contribution": "Authored"
                 }

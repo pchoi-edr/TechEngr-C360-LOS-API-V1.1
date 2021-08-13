@@ -56,20 +56,20 @@ an HTTP response code of `200` ("OK").
       "description": "some description",
       "riskCode": "001",
       "date": "2019-11-30 00:00:00z",
-      "user": "user@company.com"
+      "user": "user@example.com"
     },
     "history": [
       {
         "description": "some description",
         "riskCode": "002",
         "date": "2019-11-20 00:00:00z",
-        "user": "user@company.com"
+        "user": "user@example.com"
       },
       {
         "description": "some description",
         "riskCode": "003",
         "date": "2019-11-20 00:00:00z",
-        "user": "user@company.com"
+        "user": "user@example.com"
       }
     ]
   }
