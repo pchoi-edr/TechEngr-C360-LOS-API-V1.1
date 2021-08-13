@@ -183,7 +183,7 @@ SRF Fields API):
 {
   "meta": {
     "requestedBy": "creator@example.com",
-    "createdBy": "testmanager@edrnet.com",
+    "createdBy": "testmanager@example.com",
     "cabinet": "Testing Cabinet",
     "currency": "USD",
     "srfAction": "DRAFT",

@@ -25,8 +25,10 @@ The API endpoints are accessible via the HTTP `GET` method.
 
 | Path Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| :locationID | Integer | Yes* | A location ID. |
+| :locationID | Yes* | Integer | A location ID. |
 
+\* This parameter is required, but due to the nature
+of the available endpoint URL only one can be supplied at a time.
 
 ##### Body Parameters
 

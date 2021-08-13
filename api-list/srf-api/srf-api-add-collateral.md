@@ -10,7 +10,7 @@
 ```
 
 The `Add Collateral` request contains a collection of collaterals and LOS attempts to add them to an existing loan. There are two ways to use the `Add Collateral` API:
-- If the `/loanID` path is used, LOS looks up the loan by the ID  specified in the path.
+- If the `/loanID` path is used, LOS looks up the loan by the loan ID specified in the path.
 - If the `/locationID` path is used, LOS looks up the loan that the location is associated to.
 
 ### Request
@@ -19,8 +19,8 @@ The `Add Collateral` request contains a collection of collaterals and LOS attemp
 
 | Path Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| :locationID | Integer | locationID OR loanID | The locationID to associate specified collateral. |
-| :loanID | Integer | locationID OR loanID | The loanID to associate specified collateral. |
+| :locationID | Yes | Integer | The locationID to associate specified collateral. |
+| :loanID | Yes | Integer | The loanID to associate specified collateral. |
 
 Either the `locationID` or the `loanID` **_must_** be present in the request. Additionally, the value that is present must be valid.
 

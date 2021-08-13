@@ -35,9 +35,9 @@ The API endpoints are accessible via the HTTP `GET` method.
 
 | Path Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| :serviceRequestID | Integer | Yes* | A service request ID. |
-| :loanID | Integer | Yes* | A loan ID. |
-| :locationID | Integer | Yes* | A location ID. |
+| :serviceRequestID | Yes* | Integer | A service request ID. |
+| :loanID | Yes* | Integer | A loan ID. |
+| :locationID | Yes* | Integer | A location ID. |
 
 \* Each of these parameters is required, but due to the nature
 of the available endpoint URLs only one can be supplied at a time.

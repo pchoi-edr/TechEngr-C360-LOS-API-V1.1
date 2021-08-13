@@ -14,7 +14,7 @@ The `Add Service` request contains a collection of service types and LOS attempt
 
 | Path Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| :locationID | Integer | Yes | The locationID to associate specified services. |
+| :locationID | Yes | Integer | The locationID to associate specified services. |
 
 
 ##### Body Parameters

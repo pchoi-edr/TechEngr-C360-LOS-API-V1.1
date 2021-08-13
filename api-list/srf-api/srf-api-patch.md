@@ -12,7 +12,7 @@
 
 | Path Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| :serviceRequestID | Integer | Yes | The serviceRequestID to associate uploaded file. |
+| :serviceRequestID | Yes | Integer | The serviceRequestID to associate uploaded file. |
 
 File to be uploaded must be streamed as multi-part form document.
 

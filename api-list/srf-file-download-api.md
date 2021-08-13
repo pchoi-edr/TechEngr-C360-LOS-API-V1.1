@@ -36,7 +36,7 @@ own application code.
 
 | Path Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| :uploadID | Integer | Yes | The ID of uploaded file. |
+| :uploadID | Yes | Integer | The ID of uploaded file. |
 
 Note that the upload ID must represent a file that was uploaded
 for a service performed on one of the collateral properties

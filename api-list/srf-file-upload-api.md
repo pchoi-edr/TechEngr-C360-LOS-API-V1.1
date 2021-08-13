@@ -30,24 +30,24 @@ The files uploaded can be downloaded within C360 within the File Manager UI.
 
 ##### Path Parameters
 
-| Path Parameter | Type | Required | Description |
+| Path Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| :locationId | Integer | Yes | The ID of uploaded file. |
-| :uploadedBy | string | Yes | The email address of file uploader. |
+| :locationId | Yes | Integer | The ID of uploaded file. |
+| :uploadedBy | Yes | String | The email address of file uploader. |
 
 ##### Body Parameters
 
-| Body Parameter | Type | Required | Description |
+| Body Parameter | Required | Type | Description |
 | :--- | :--- | :--- | :--- |
-| file | Integer | Yes | The ID of uploaded file. |
-| preparedBy | string | No | The email address of file uploader. |
-| reportTitle | string | No | Title of the Report |
-| reportDate | string | No | Report Date |
-| displayFileName | string | No | The File Name if you do not want to display original file name |
-| serviceGroups | string | No | Stringified Array or Objects that contain the Service Groups |
-| serviceTypes | string | No | Stringified Array or Objects that contain the Service Types |
-| documentTypes | string | No | Stringified Array or Objects that contain the Document Types |
-| documentStatus | string | No | Stringified Objects that contain the Document Status |
+| file | Yes | Integer | The ID of uploaded file. |
+| preparedBy | No | String | The email address of file uploader. |
+| reportTitle | No | String | Title of the Report |
+| reportDate | No | String | Report Date |
+| displayFileName | No | String | The File Name if you do not want to display original file name |
+| serviceGroups | No | String | Stringified Array or Objects that contain the Service Groups |
+| serviceTypes | No | String | Stringified Array or Objects that contain the Service Types |
+| documentTypes | No | String | Stringified Array or Objects that contain the Document Types |
+| documentStatus | No | String | Stringified Objects that contain the Document Status |
 
 ##### Query String Parameters
 
