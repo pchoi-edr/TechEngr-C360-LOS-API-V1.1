@@ -5,6 +5,8 @@ supported by the LOS API.
 
 * [OAuth2 API](api-list/oauth-api.md)
   * <span style="background-color: #ebb747; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(POST)</span> /api/v1.1/oauth/token
+* [Collateral Overview Patch API](api-list/collateral-overview/collateral-overview.md)
+  * <span style="background-color: #0095ff; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(PATCH)</span> /api/v1.1/collateralOverview/:locationID
 * [Loan Information - Collateral Overview API](api-list/loaninfo/loan-information-api.md)
   * <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 0px 20px; border-radius: 14px;">(GET)</span> /api/v1.1/loan/information/collateralOverview/:locationID
 * [Loan Information - Environmental Risk Codes API](api-list/loaninfo/loan-information-envriskcodes-api.md)
