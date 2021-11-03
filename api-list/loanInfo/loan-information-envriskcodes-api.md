@@ -6,6 +6,8 @@ If a location ID is specified, then the results will be
 limited to only that single location. No other locations
 will be present in the data structure returned to the client.
 
+The "Environmental Risk Codes" feature is required in Collateral 360 for the use of this endpoint.
+
 ## Available Endpoints
 
 The following endpoints are made available by this API, depending on
@@ -14,7 +16,7 @@ the desired identifier used to query the server:
 ### <span style="background-color: #72b566; font-weight: bold; color: #ffffff; padding: 3px 10px; border-radius: 14px;">GET</span> **Environmental Risk Codes**
 
 ```text
-/api/v1.1/loan/information/envRiskCodes/:locationID
+/api/v1.1/loan/information/environmental/riskCodes/:locationID
 ```
 
 The API endpoints are accessible via the HTTP `GET` method.
